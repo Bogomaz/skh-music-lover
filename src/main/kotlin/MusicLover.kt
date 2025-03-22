@@ -1,6 +1,6 @@
 fun main() {
-    val initialPrice: Double = 50000.0;
-    val isRegularCustomer: Boolean = true;
+    val initialPrice: Double = 15000.0;
+    val isRegularCustomer: Boolean = false;
 
     println("Сумма покупки без скидок составит $initialPrice руб.");
     val discountedPrice = calculateFinalPrice(initialPrice, isRegularCustomer);
